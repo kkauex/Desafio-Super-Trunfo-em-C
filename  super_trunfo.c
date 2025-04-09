@@ -19,7 +19,7 @@ int main() {
     float pib2;
     int pontos2;
 
-    // Leitura dos dados da Carta 1 Usando Printf e Scanff
+    // Leitura dos dados da Carta 1 Usando Printf Scanf
     printf("Cadastro da Carta 1\n");
 
     printf("Estado: ");
@@ -37,7 +37,7 @@ int main() {
     printf("Área (km²): ");
     scanf("%f", &area1);
 
-    printf("PIB (em bilhões): ");
+    printf("PIB: ");
     scanf("%f", &pib1);
 
     printf("Número de pontos turísticos: ");
@@ -61,13 +61,13 @@ int main() {
     printf("Área (km²): ");
     scanf("%f", &area2);
 
-    printf("PIB (em bilhões): ");
+    printf("PIB: ");
     scanf("%f", &pib2);
 
     printf("Número de pontos turísticos: ");
     scanf("%d", &pontos2);
 
-    // Exibição dos dados formatados
+    // Exibição dos dados formatados das Cartas
     printf("\nInformações das Cartas:\n");
 
     printf("\nCarta 1:\n");
